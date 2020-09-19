@@ -29,7 +29,9 @@ twitter_username: AlbertMorenoDEV
 github_username:  AlbertMorenoDEV
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-tactile
+# theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
