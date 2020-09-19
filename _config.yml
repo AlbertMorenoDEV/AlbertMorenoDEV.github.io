@@ -31,9 +31,9 @@ show_downloads: false
 google_analytics: UA-178487446-1
 
 # Build settings -> https://pages.github.com/themes/
-# theme: minima
-theme: tactile
-# theme: cayman
+theme: minima
+# theme: jekyll-theme-tactile
+# theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
