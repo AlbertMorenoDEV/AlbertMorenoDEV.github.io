@@ -31,9 +31,9 @@ show_downloads: false
 google_analytics: UA-178487446-1
 
 # Build settings
-# theme: minima
+theme: minima
 # theme: jekyll-theme-tactile
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
