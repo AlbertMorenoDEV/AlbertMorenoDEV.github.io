@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Back-end stuff notes
-email: albert.moreno.dev@gmail.com
+# email: ?@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   DDD, Hexagonal Arquitecture, Clean Code, SOLID, CQRS... and much more.
   Mainly stuff that I face on my day to day work and that I believe it's worth enough to share with other devs.
