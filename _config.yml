@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Back-end stuff notes
+title: My notes
 # email: ?@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   DDD, Hexagonal Arquitecture, Clean Code, SOLID, CQRS... and much more.
