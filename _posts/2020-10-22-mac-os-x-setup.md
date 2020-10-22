@@ -27,6 +27,7 @@ categories: macos apple
 - Remove bluetooth and display icons
 - Change battery to show percentage
 - Add sound icon
+- Install runcat, amphetamine and monosnap
 
 ### Spotlight
 
@@ -63,7 +64,8 @@ Homebrew-Cask extends Homebrew and allows you to install large binary files via 
       quicklook-csv \
       betterzip \
       webpquicklook \
-      suspicious-package
+      suspicious-package \
+      muzzle
 
 #### App Suggestions
 
@@ -72,7 +74,25 @@ Homebrew-Cask extends Homebrew and allows you to install large binary files via 
       cheatsheet \
       docker \
       firefox \
-      google-chrome
+      google-chrome \
+      spotify \
+      zoomus \
+      phpstorm \
+      goland \
+      evernote \
+      monosnap \
+      amphetamine \
+      runcat \
+      postman \
+      slack \
+      iterm2 \
+      mysqlworkbench \
+      tree
+
+### Brewfile
+
+Dump current packages: `brew bundle dump`
+Restore packages: `brew bundle`
 
 ## iTerm 2
 
@@ -84,6 +104,7 @@ Homebrew-Cask extends Homebrew and allows you to install large binary files via 
 - Go to profiles -> Default -> Terminal -> Check silence bell to disable the terminal session from making any sound
 - Download one of [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/schemes) and then set these to your default profile colors
 - Change the cursor text and cursor color to yellow make it more visible
+- iTerm → Preferences → Profiles → Keys → Presets... → Natural Text Editing
 
 ## ZSH
 
@@ -93,6 +114,16 @@ Homebrew-Cask extends Homebrew and allows you to install large binary files via 
 
 > sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 > chsh -s $(which zsh)
+
+#### Recommended plugins
+
+> plugins=(git git-extras gem bundler osx ruby rvm rails sudo sublime colorize history history-substring-search last-working-dir compleat zsh-completions zsh-history-substring-search zsh-autosuggestions zsh-syntax-highlighting zsh-iterm-touchbar)
+
+#### Recommended themes
+
+- powerlevel9k
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+> git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 ## fzf
 
