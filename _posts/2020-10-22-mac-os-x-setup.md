@@ -117,7 +117,7 @@ Restore packages: `brew bundle`
 
 #### Recommended plugins
 
-> plugins=(git git-extras gem bundler osx ruby rvm rails sudo sublime colorize history history-substring-search last-working-dir compleat zsh-completions zsh-history-substring-search zsh-autosuggestions zsh-syntax-highlighting zsh-iterm-touchbar)
+> plugins=(git git-extras osx colorize history zsh-completions zsh-autosuggestions zsh-syntax-highlighting zsh-iterm-touchbar)
 
 #### Recommended themes
 
